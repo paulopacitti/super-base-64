@@ -7,9 +7,7 @@
 - Works with the **Browser API**;
 
 ### Install
-```bash 
-npm install super-base-64
-```
+<del> npm install super-base-64</del> - coming soon to npm!
 
 ### Usage
 - *Async/Await* style:
