@@ -7,10 +7,14 @@
 - Works with the **Browser API**;
 
 ### Install
-<del> npm install super-base-64</del> - coming soon to npm!
+
+```bash
+npm install super-base-64
+```
 
 ### Usage
 - *Async/Await* style:
+
 ```javascript
 import superBase64 from 'super-base-64';
 
@@ -19,7 +23,9 @@ mammaMia = async (file) => {
   console.log(itsAMeMario); // logs the image file encoded in base64
 }
 ```
+
 - Promise style:
+
 ```javascript
 import superBase64 from 'super-base-64';
 
