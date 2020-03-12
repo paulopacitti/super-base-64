@@ -12,16 +12,16 @@
 ### Usage
 - *Async/Await* style:
 ```javascript
-import superBase64 from 'super-base-64'
+import superBase64 from 'super-base-64';
 
 mammaMia = async (file) => {
-  let marioProfilePicture  = await superBase64(file);
-  console.log(marioProfilePicture); // logs the image file encoded in base64
+  let itsAMeMario  = await superBase64(file);
+  console.log(itsAMeMario); // logs the image file encoded in base64
 }
 ```
 - Promise style:
 ```javascript
-import superBase64 from 'super-base-64'
+import superBase64 from 'super-base-64';
 
 mammaMia = (file) => {
   superBase64(file).then((encoded) => console.log(encoded)); // logs the image file encoded in base64
